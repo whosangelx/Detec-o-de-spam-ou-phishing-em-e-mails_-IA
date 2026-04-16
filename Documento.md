@@ -4,32 +4,23 @@
 **Detecção de spam ou phishing em e-mails com técnicas de aprendizado de máquina**
 
 ## Integrantes
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
-
----
-
-# 1. Introdução
-
-A comunicação por e-mail continua sendo uma das formas mais utilizadas para troca de informações em ambientes pessoais, acadêmicos e corporativos. No entanto, esse meio também é amplamente explorado por agentes maliciosos para o envio de mensagens de spam e ataques de phishing, que podem comprometer dados pessoais, credenciais de acesso e informações sensíveis dos usuários.
-
-O spam consiste no envio de mensagens indesejadas, geralmente em grande volume, enquanto o phishing busca enganar o destinatário por meio de links, anexos ou conteúdos falsos, simulando fontes confiáveis com o objetivo de roubar informações. Diante do crescimento desses ataques, torna-se necessário o desenvolvimento de mecanismos automáticos capazes de identificar e filtrar essas ameaças com maior precisão.
-
-Nesse contexto, o aprendizado de máquina tem se destacado como uma abordagem eficiente para a detecção de spam e phishing em e-mails, pois permite identificar padrões presentes no conteúdo das mensagens, em seus metadados e em outros atributos relevantes. Assim, este trabalho tem como objetivo realizar uma revisão da literatura científica experimental sobre a aplicação de técnicas de aprendizado de máquina nesse problema, analisando os principais métodos utilizados, as bases de dados adotadas e os resultados encontrados.
-
+- Nome Chyntia freitas prestes
+- Nome do João Vitor Oliveira
 ---
 
 # 2. Questões de pesquisa geradas
 
 As questões de pesquisa definidas para esta revisão foram:
 
-1. **Como o aprendizado de máquina tem sido aplicado na detecção de spam ou phishing em e-mails?**
-2. **Quais algoritmos são mais utilizados para classificar e-mails legítimos, spam ou phishing?**
-3. **Quais atributos ou características dos e-mails são mais empregados nos estudos analisados?**
-4. **Quais métricas de avaliação são mais utilizadas para medir o desempenho dos modelos?**
-5. **Quais são os principais resultados, desafios e limitações encontrados na literatura científica experimental?**
+1. Quais são os métodos de aprendizado de máquina para detecção de spam e phishing por e-mail, incluindo classificação e agrupamento? 
+2. Quais são os principais desafios no uso de aprendizado de máquina para detecção de phishing por e-mail? 
+3. Como as tarefas de classificação e regressão se desempenham na detecção de e-mails de spam?
+4. Quais são os métodos de aprendizado de máquina para detecção de spam e phishing por e-mail, incluindo classificação e agrupamento?
+5. Quais são os principais desafios no uso de aprendizado de máquina para detecção de phishing por e-mail?
+6. Como as tarefas de classificação e regressão se desempenham na detecção de e-mails de spam?
+
+
+
 
 ---
 
@@ -38,189 +29,88 @@ As questões de pesquisa definidas para esta revisão foram:
 As strings de busca utilizadas foram:
 
 ```text
-("machine learning" OR "aprendizado de máquina") AND ("email spam detection" OR "detecção de spam em e-mails")
-("machine learning" OR "aprendizado de máquina") AND ("phishing email detection" OR "detecção de phishing em e-mails")
-("classification") AND ("spam email")
-("classification") AND ("phishing email")
-("artificial intelligence" OR "inteligência artificial") AND ("email security")
-("spam filtering") AND ("machine learning")
-("phishing detection") AND ("email") AND ("machine learning")
-("email spam" OR "email phishing") AND ("experimental study" OR "estudo experimental")
-("detecção de spam") AND ("aprendizado de máquina")
-("detecção de phishing") AND ("e-mails")
-```
-
+("spam detection" OR "phishing detection") AND "email" AND ("machine learning" OR "classification" OR "clustering" OR "regression")
+"email security" AND "machine learning" AND ("spam" OR "phishing") AND "challenges"
+("machine learning" OR "deep learning") AND "phishing email detection" AND "comparative study"
+ti:"spam detection" AND abs:"machine learning"
+ti:"phishing detection" AND abs:"email"
+Spam and phishing detection in emails using machine learning (classification, regression, clustering), including problem description, application, and challenges.
 ---
 
-# 4. Critérios de seleção dos artigos
+# 4. Seleção dos artigos
+- A Review On Machine Learning Algorithms In Enhancing Email Security
+- Enhancing email security: A hybrid machine learning approach for spam and malware detection
+- Deciphering Spam Through AI: From Traditional Methods to Deep Learning Advancements in Email Security
+- Email Spam Detection by Machine Learning Approaches: A Review
+- A Systematic Review on Deep-Learning-Based Phishing Email Detection
+- Enhancing Email Security with AI: A Review of Machine Learning, Deep Learning and Fuzzy Logic Approaches
+- Hybrid machine learning approach for phishing email detection using NLP and ensemble models
+- Revolutionizing Email Security with Machine Learning and NLP for Spam Detection
 
-## 4.1 Critérios de inclusão
-
-Foram incluídos artigos que:
-
-- abordam a detecção de spam ou phishing em e-mails;
-- utilizam técnicas de aprendizado de máquina;
-- apresentam análise ou validação experimental;
-- descrevem algoritmos, dados e métricas de avaliação;
-- contribuem para responder às questões de pesquisa propostas.
-
-## 4.2 Critérios de exclusão
-
-Foram excluídos artigos que:
-
-- não tratam diretamente de spam ou phishing em e-mails;
-- não utilizam aprendizado de máquina;
-- não apresentam resultados experimentais;
-- são duplicados;
-- possuem pouca relação com o tema central da revisão.
-
----
-
-# 5. Lista dos 8 artigos escolhidos
-
-> Substituir os campos abaixo pelos 8 artigos reais selecionados pelo grupo.
-
-## Artigo 1
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 2
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 3
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 4
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 5
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 6
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 7
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
-
-## Artigo 8
-**Título:** [Inserir título do artigo]  
-**Autores:** [Inserir autores]  
-**Ano:** [Inserir ano]  
-**Fonte:** [Inserir periódico ou evento]  
-**Link:** [Inserir link]
 
 ---
 
 # 6. Texto de revisão da literatura gerado pela ferramenta
 
-A literatura científica experimental sobre detecção de spam e phishing em e-mails demonstra que o aprendizado de máquina tem sido amplamente utilizado como estratégia para aumentar a segurança digital e reduzir os riscos associados a mensagens maliciosas. Isso ocorre porque técnicas tradicionais baseadas apenas em regras fixas ou listas de bloqueio nem sempre conseguem acompanhar a constante evolução dos padrões utilizados por atacantes.
+Revisão da Literatura: Detecção de Spam e Phishing com Aprendizado de Máquina
+A detecção de spam e phishing em e-mails é um dos pilares da segurança cibernética moderna. Com base na análise de 239 artigos científicos recentes, consolidei as informações solicitadas sobre o problema, suas aplicações, métodos de solução e os desafios persistentes na literatura acadêmica.
 
-Nos estudos analisados, observa-se predominância do uso de técnicas de classificação, uma vez que o problema geralmente envolve categorizar e-mails como legítimos, spam ou phishing. Entre os algoritmos mais recorrentes na literatura estão Naive Bayes, Support Vector Machine, Random Forest, Decision Tree, K-Nearest Neighbors e Redes Neurais. Esses métodos permitem identificar padrões em textos, links, remetentes, cabeçalhos e outros atributos extraídos das mensagens.
+1. Descrição Clara do Problema
+O problema consiste na identificação automatizada de mensagens de e-mail indesejadas (spam) ou maliciosas (phishing).
 
-Outro aspecto importante encontrado na literatura é a variedade de características utilizadas para treinar os modelos. Muitos estudos empregam atributos textuais, frequência de palavras, presença de URLs suspeitas, endereços de remetentes, estruturas do cabeçalho, anexos e indicadores semânticos. Em alguns casos, também são utilizadas técnicas de processamento de linguagem natural para melhorar a representação do conteúdo das mensagens.
+Spam: Geralmente refere-se a mensagens em massa não solicitadas, muitas vezes de cunho publicitário, que consomem largura de banda e produtividade.
+Phishing: É uma forma mais perigosa que utiliza engenharia social para enganar o usuário, visando roubar credenciais de acesso, informações financeiras ou instalar malware. O objetivo das soluções de Aprendizado de Máquina (ML) é filtrar essas mensagens antes que cheguem à caixa de entrada do usuário, minimizando o risco de comprometimento de dados [1][2].
+2. Áreas de Aplicação
+A detecção de ameaças via e-mail é aplicada em diversos contextos críticos:
 
-As métricas de avaliação mais comuns nos trabalhos são acurácia, precisão, recall, F1-score e matriz de confusão. Em geral, os resultados mostram desempenho satisfatório dos algoritmos, especialmente quando há bom pré-processamento dos dados e seleção adequada de atributos. No entanto, a literatura também aponta desafios como desbalanceamento de classes, mudanças constantes nas estratégias de ataque, dificuldade de generalização dos modelos e necessidade de atualização contínua.
+Segurança Corporativa: Implementação em servidores de e-mail empresariais para proteger ativos e dados confidenciais de organizações [2].
+Proteção do Usuário Final: Plugins de navegador, extensões e filtros nativos em provedores de e-mail (como Gmail ou Outlook) que inspecionam URLs e anexos em tempo real [4].
+Plataformas de Big Data: Uso de arquiteturas escaláveis (como a Arquitetura Lambda) para processar volumes massivos de dados de e-mail em grandes infraestruturas [3].
+Sistemas de Resposta a Incidentes: Integração com Centros de Operações de Segurança (SOC) para monitorar e bloquear campanhas de ataque coordenadas [2].
+3. Tipos de Tarefas de Aprendizado de Máquina
+As abordagens na literatura dividem-se principalmente em três categorias de tarefas:
 
-Por fim, a revisão indica que o aprendizado de máquina possui papel fundamental na detecção automatizada de spam e phishing em e-mails, contribuindo para a proteção dos usuários e para o fortalecimento da segurança da informação. Ainda assim, os estudos mostram que o problema permanece dinâmico, exigindo soluções cada vez mais robustas, interpretáveis e adaptáveis a novos tipos de ameaça.
+Classificação (Tarefa Principal): É a mais comum. O modelo é treinado para rotular um e-mail como "Ham" (legítimo), "Spam" ou "Phishing".
+Exemplos: Random Forest (RF), Support Vector Machines (SVM), Naive Bayes, e modelos de Deep Learning como BERT e LSTMs [1][5].
+Regressão: Utilizada para prever a probabilidade ou o "score de risco" de uma mensagem. Em vez de um rótulo binário, o sistema atribui um valor contínuo que pode ser usado para decisões de filtragem mais granulares.
+Exemplos: Regressão Logística (frequentemente usada como classificador probabilístico) e árvores de regressão (CART/BART) para análise de impacto [5].
+Agrupamento (Clustering): Tarefa não supervisionada usada para identificar novos padrões de ataque ou descobrir "campanhas" de spam similares sem a necessidade de rótulos prévios.
+Exemplos: K-Means e algoritmos de detecção de anomalia para identificar mensagens atípicas que divergem do comportamento padrão do usuário [3].
+4. Principais Desafios Encontrados na Literatura
+Apesar do alto desempenho dos modelos (muitos atingindo mais de 98% de precisão), a literatura aponta desafios significativos:
+
+Ataques Adversários: Atacantes modificam sutilmente o conteúdo do e-mail (ex: trocando caracteres ou adicionando termos "invisíveis") para enganar os modelos de ML [4].
+Evolução das Táticas: O uso de IA generativa (LLMs) por atacantes para criar e-mails de phishing mais convincentes exige que os sistemas de defesa também evoluam constantemente [1][2].
+Escalabilidade e Tempo Real: O processamento de milhões de e-mails por segundo exige modelos que sejam não apenas precisos, mas extremamente eficientes em termos de CPU e memória [5].
+Explicabilidade: Profissionais de segurança precisam entender por que um e-mail foi bloqueado para validar falsos positivos, o que é difícil em modelos de "caixa preta" como redes neurais profundas [4].
+Referências
+[1] AI Sentries: Evaluating Machine Learning Models for Superior Phishing Email Detection. S Sahit et al. (2024).
+[2] Enhancing Phishing Detection with AI: A Novel Dataset and Comprehensive Analysis. Robin Chataut et al. (2024).
+[3] Lambda Architecture-Based Big Data System for Large-Scale Targeted Social Engineering Email Detection. Mustafa Umut Demirezen et al. (2023).
+[4] Deciphering Spam Through AI: From Traditional Methods to Deep Learning Advancements. scitepress.org (2024).
+[5] A Comparative Study of Machine Learning and Neural Network Models for Phishing Detection. Springer (2024).
 
 ---
 
 # 7. Resumo estruturado da literatura
+Técnicas de Aprendizado de Máquina Mais Utilizadas A literatura demonstra uma evolução de algoritmos tradicionais para modelos baseados em aprendizado profundo (Deep Learning) e transformadores. Entre as técnicas clássicas, Random Forest (RF), Support Vector Machines (SVM), Naive Bayes e Regressão Logística são amplamente citadas por sua eficiência computacional e bons resultados iniciais. Atualmente, o foco reside em redes neurais como CNN, RNN (especialmente LSTM e GRU) e arquiteturas baseadas em Transformers, como BERT e RoBERTa, que apresentam as maiores taxas de acurácia, superando 98% em muitos cenários.
+Atributos (Features) Recorrentes Os atributos são geralmente divididos em categorias:
+Baseados em conteúdo: Palavras-chave de urgência (ex: "urgente", "agora"), termos financeiros ("banco", "pagamento"), e similaridade de conteúdo.
+Baseados em links (URL): Contagem de links, obfuscação de URLs e número de pontos no domínio.
+Metadados e Cabeçalho: Reputação do remetente, inconsistência no endereço de e-mail e informações de fuso horário.
+Comportamentais e Estruturais: Frequência de envios, desvio de avaliação (em spam de opinião) e presença de tags HTML/JavaScript.
+Nível de Caractere: Padrões de pontuação, erros ortográficos e uso excessivo de letras maiúsculas.
+Principais Desafios O desafio central é a escassez de dados rotulados (labeled data) e o alto custo para obtê-los, dificultando o treinamento de modelos complexos. Além disso, os atacantes são adaptativos, mudando suas estratégias conforme as políticas de detecção evoluem. Outros obstáculos incluem o desbalanceamento de classes (muito mais e-mails legítimos do que spam), a necessidade de interpretabilidade dos modelos ("caixa-preta") e a alta demanda por recursos computacionais para processamento em larga escala.
+Técnicas de Pré-processamento As etapas comuns envolvem a limpeza dos dados (remoção de nulos e duplicatas), eliminação de tags HTML/JavaScript, tokenização, stemming, e a remoção de stop words. Para representação numérica, utiliza-se frequentemente TF-IDF, One-hot encoding e Word Embeddings (como Word2Vec ou embeddings derivados do BERT). Em dados estruturados em grafos, técnicas de "esparsificação" são aplicadas para otimizar o processamento.
+Métricas de Avaliação Comuns As métricas fundamentais são Acurácia, Precisão, Recall (Sensibilidade) e F1-Score. Em problemas de classificação binária desbalanceada, o Coeficiente de Correlação de Matthews (MCC) é recomendado. Outras métricas incluem a Área sob a Curva (AUC/ROC), Precisão@k e métricas de tempo de inferência e uso de CPU/RAM para aplicações em tempo real.
 
-## 7.1 Objetivo da revisão
-
-Investigar como técnicas de aprendizado de máquina vêm sendo aplicadas na detecção de spam ou phishing em e-mails, considerando algoritmos, atributos, métricas e principais resultados experimentais encontrados na literatura.
-
-## 7.2 Método
-
-Foi realizada uma busca bibliográfica com strings relacionadas à detecção de spam, phishing e aprendizado de máquina. Após a aplicação dos critérios de inclusão e exclusão, foram selecionados 8 artigos para análise comparativa.
-
-## 7.3 Principais técnicas encontradas
-
-- Naive Bayes
-- Support Vector Machine
-- Random Forest
-- Árvore de Decisão
-- K-Nearest Neighbors
-- Redes Neurais
-
-## 7.4 Principais métricas utilizadas
-
-- Acurácia
-- Precisão
-- Recall
-- F1-score
-- Matriz de confusão
-
-## 7.5 Principais achados
-
-- O aprendizado de máquina tem sido amplamente utilizado na filtragem de spam e na detecção de phishing.
-- Técnicas de classificação são predominantes nesse tipo de problema.
-- Atributos textuais e estruturais dos e-mails são frequentemente utilizados.
-- O desempenho dos modelos depende da qualidade dos dados e do pré-processamento.
-- O problema é dinâmico e exige atualização contínua dos modelos.
-
-## 7.6 Lacunas identificadas
-
-- Dificuldade de generalização para diferentes bases de e-mails.
-- Mudanças frequentes nas estratégias de spam e phishing.
-- Necessidade de modelos mais interpretáveis.
-- Desbalanceamento entre classes legítimas e maliciosas em alguns conjuntos de dados.
 
 ---
 
 # 8. Tabela comparativa dos artigos analisados
 
-| Nº | Artigo | Objetivo | Técnica de ML | Base de Dados | Métricas | Principais Resultados |
-|----|--------|----------|---------------|---------------|----------|------------------------|
-| 1 |  | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 2 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 3 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 4 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 5 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 6 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 7 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
-| 8 | [Título resumido] | Detectar spam/phishing | [Técnica] | [Base] | [Métricas] | [Resultado] |
+## 2. Tabela Comparativa dos Artigos
 
----
-
-# 9. Considerações finais
-
-Com base na literatura analisada, observa-se que o uso de aprendizado de máquina na detecção de spam ou phishing em e-mails constitui uma abordagem relevante para o fortalecimento da segurança digital. Os estudos mostram que diferentes algoritmos podem ser aplicados para identificar mensagens maliciosas com bom desempenho, especialmente quando há seleção adequada de atributos e tratamento apropriado dos dados. Além disso, a revisão permitiu identificar métodos recorrentes, métricas amplamente utilizadas e desafios ainda presentes, evidenciando que o tema possui grande importância acadêmica e prática.
-
----
-
-# 10. Referências
-
-> Inserir aqui as referências completas dos 8 artigos selecionados.
-
-### Modelo de referência
-
-SOBRENOME, Nome. Título do artigo. **Nome do periódico ou evento**, ano. Disponível em: <link>. Acesso em: dia mês ano.
+| Referência | Técnica(s) Utilizada(s) | Atributos Utilizados | Tipo de Tarefa | Pré-processamento | Métricas de Avaliação | Principais Contribuições |
+|---|---|---|---|---|---|---|
+| Danilchenko et al. (2022) | Random Forest, Clique Reviewer Spammer Detection (CRSDnet), Belief Propagation | Comportamento do revisor, metadados de revisões e estrutura de grafos (cliques) | Classificação | Esparsificação de grafos, extração de metadados | AUC, AP, Precision@k, NDCG | Integra ML com modelos de grafos para lidar com poucos dados rotulados (Active Learning). |
